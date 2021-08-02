@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>index</title>
+
+
+    <link rel="stylesheet" href="/css/estilo.css">
+
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="pruebainicial.html" class="active">Encuesta</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="form-login.html">Iniciar sesión</a></li>
+        </ul>
+
+    </header>
+
+
+    <div class="main-content">
+
+        <form class="form-basic" method="post" action="#">
+
+            <div class="form-title-row">
+                <h1>Encuesta de Satisfaccion </h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Nombre Completo</span>
+                    <input type="text" name="name" placeholder="ej: Adriana Espitia" required>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>¿Hace cuanto es cliente Nuestro?</span>
+                    <select name="dropdown">
+                        <option>6 Meses</option>
+                        <option>1 Año</option>
+                        <option>2 Años</option>
+                        <option>Mas de 2 Años</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>¿Cual es su opinion sobre el servicio que le prestan?</span>
+                    <textarea name="textarea"></textarea>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label><span>¿Le agrada la ubicacion de la tienda?</span></label>
+                <div class="form-radio-buttons">
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>si</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>no</span>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="form-row">
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

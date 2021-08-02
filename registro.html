@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Registro</title>
+<link rel="stylesheet" href="/css/estilo.css">
+
+</head>
+<header>
+    <ul>
+        <li><a href="pruebainicial.html">Encuesta</a></li>
+        <li><a href="registro.html" class="active">Registro</a></li>
+        <li><a href="form-login.html">Iniciar sesión</a></li>
+    </ul>
+</header>
+
+<div class="main-content">
+
+
+    <form class="form-register" method="post" action="#">
+
+        <div class="form-register-with-email">
+
+            <div class="form-white-background">
+
+                <div class="form-title-row">
+                    <h1>Crea cuenta</h1>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                            <span>Nombre</span>
+                            <input type="text" name="name">
+                        </label>
+                </div>
+                <div class="form-row">
+                    <label>
+                            <span>Apellidos</span>
+                            <input type="text" name="apellido">
+                        </label>
+                </div>
+
+
+                <div class="form-row">
+
+                    <label>
+                    <span>Tipo de Documento</span>
+                    <select name="dropdown">
+                        <option>Seleccione una Opcion</option>
+                        <option>Tarjeta de identidad</option>
+                        <option>Cedula de Ciudadania</option>
+                        <option>Cedula de Extranjeria</option>
+                        <option>Pasaporte</option>
+                    </select>
+                </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                            <span>No. Documento</span>
+                            <input type="text" name="documento">
+                        </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                            <span>Email</span>
+                            <input type="email" name="email">
+                        </label>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                            <span>Password</span>
+                            <input type="password" name="password">
+                        </label>
+                </div>
+
+                <div class="form-row">
+                    <label class="form-checkbox">
+                            <input type="checkbox" name="checkbox" checked>
+                            <span>Estoy de acuerdo con los <a href="#">Términos y condiciones</a></span>
+                        </label>
+                </div>
+
+                <div class="form-row">
+                    <button type="submit">Registrarse</button>
+                </div>
+
+            </div>
+
+            <a href="#" class="form-log-in-with-existing">¿Ya tienes una cuenta? Entre aquí &rarr;</a>
+
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+
+</html>
